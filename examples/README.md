@@ -4,7 +4,7 @@ This folder contains examples of how to use the CHERI-SDRaD library.
 
 ## Prerequisites
 
-Before compiling and running the examples, make sure you have built the CHERI-SDRaD library (`libcheri_sdrad.so`) and add the source directory containing the shared library to the Linux dynamic linker serch path.
+Before compiling and running the examples, make sure you have built the CHERI-SDRaD library (`libcheri_sdrad.so`) and add the source directory containing the shared library to the Linux dynamic linker search path.
 
 To compile the library, run `make`in [src/](../src/):
 

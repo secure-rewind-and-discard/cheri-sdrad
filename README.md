@@ -1,8 +1,8 @@
 # CHERI-SDRaD
 
-This repository is contains the source code for the Master Thesis [Secure Rewind and Discard on Arm Morello](https://secure-rewind-and-discard.github.io/files/Master_Thesis___Secure_Rewind_on_Discard_on_ARM_Morello.pdf).
+This repository contains the source code for the Master Thesis [Secure Rewind and Discard on Arm Morello](https://secure-rewind-and-discard.github.io/files/Master_Thesis___Secure_Rewind_on_Discard_on_ARM_Morello.pdf).
 
-This project adapt [Secure Rewind & Dicard of Isolated Domains](https://github.com/secure-rewind-and-discard/secure-rewind-and-discard/tree/main) for CHERI architecture on Arm Morello Board.
+This project adapts [Secure Rewind & Dicard of Isolated Domains](https://github.com/secure-rewind-and-discard/secure-rewind-and-discard/tree/main) for CHERI architecture on Arm Morello Board.
 
 ## Abstract
 Memory-unsafe programming languages such as C and C++ are the preferred languages for systems programming, embedded systems, and performance-critical applications. The widespread use of these languages makes the risk of memory-related attacks very high. There are well-known detection mechanisms, but they do not address software resilience.
@@ -36,7 +36,7 @@ LD_PRELOAD=/path/to/cheri-sdrad/src/libcheri_sdrad.so
 
 ## Hardware requirement
 
-The cheri-sdrad library require a Arm CPU using CHERI such as the Arm Morello Board.
+The cheri-sdrad library require an Arm CPU using CHERI such as the Arm Morello Board.
 
 ## Simple examples
 Some examples are at your disposal to demonstrate the library's use in [examples/](./examples/)
